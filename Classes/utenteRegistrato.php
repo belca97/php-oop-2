@@ -3,7 +3,7 @@
 //creo una classe padre 'user'
 
 
-class User {
+class utenteRegistrato {
     protected $name;
     protected $lastName;
     protected $email;

@@ -1,9 +1,9 @@
 <?php
 
-require_once __DIR__ . '/componenti/user.php';
+require_once __DIR__ . '/Classes/utenteRegistrato.php';
 
 
-$utente = new user(20);
+$utente = new utenteRegistrato(20);
 $utente ->setName('Matteo');
 $utente->setLastName('Belcari');
 $utente->setEmail('matteobelcari@gmail.com');
